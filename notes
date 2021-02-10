@@ -1,0 +1,13 @@
+.slowdance{
+    background:url("slowdancinginthedark.jpg");
+    margin: 0px;
+    width:95%;
+    height:100%;
+    border:10px outset rgb(217, 232, 236);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+rgba(7, 3, 29, 0.432)
+
+rgba(255, 255, 255, 0.205)
