@@ -55,6 +55,7 @@
     </div>
     <br>
     <div class="achievements" id="achievements">
+        <form id="foorm">
         <div class="ach-text">
             <h2>Achievements</h2>
 
@@ -72,15 +73,26 @@
                 <option>2020</option>
             </select>
             <br><br>
-            <input type="submit">
+            <input id="submit" type="submit"></input>
         </p>
         
         <p>
-            <span id="year">
+            <div class="achdisplay">
+                <h3 style="color:white"> <span id="result1"></span><br></h3>
+                <h3 style="color:white"> <span id="result2"></span><br></h3>
+                <h3 style="color:white"> <span id="result3"></span><br></h3>
+                <h3 style="color:white"> <span id="result4"></span><br></h3>
+                <h3 style="color:white"> <span id="result5"></span><br></h3>
+                <h3 style="color:white"> <span id="result6"></span><br></h3>
+                <h3 style="color:white"> <span id="result7"></span><br></h3>
+                <h3 style="color:white"> <span id="result8"></span><br></h3>
+            </div>
         </div>
+        </form>
         </p>
     </div>
     <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+    <script src="./index.js"></script>
 
     </body>
 
